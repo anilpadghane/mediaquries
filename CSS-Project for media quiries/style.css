@@ -165,13 +165,11 @@
 }
 .cmplttsk{
     text-decoration: line-through;
-     visibility: hidden;
 }
 .checkbox{
     color: black;
     text-align: left;
     padding-top: 10px;
-     visibility: hidden;
 }
 .h1{
     position: absolute;
@@ -262,7 +260,7 @@
     .container2:not(#block2){
         filter: blur(4px);
     }
-    @media screen and (max-width:600px) 
+    @media screen and (max-width:720px) 
     {
      html{
         height: 100%;
@@ -429,15 +427,17 @@
             border-radius: 5px;
             background-color: white;
             box-shadow: 5px 5px rgb(116, 177, 212);
-        }/*
+        }
         .cmplttsk{
             text-decoration: line-through;
+            visibility: hidden;
         }
         .checkbox{
             color: black;
             text-align: left;
             padding-top: 10px;
-        }*/
+            visibility: hidden;
+        }
         .h1{
             position: fixed;
             left: 200px;
